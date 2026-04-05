@@ -1,3 +1,8 @@
+---
+name: daily-report
+description: 日報の作成
+---
+
 日報を作成します。以下の手順で進めてください。
 
 ## 手順
