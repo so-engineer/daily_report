@@ -53,8 +53,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "So"
+          git config user.email "105592971+so-engineer@users.noreply.github.com"
           git add "${{ steps.report.outputs.report_path }}"
           git commit -m "${{ steps.report.outputs.commit_message }}"
           git pull --rebase origin "$GITHUB_REF_NAME"
